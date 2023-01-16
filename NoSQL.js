@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://chanakarn:12345678Oak@cluster0.ueqgbuk.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://<User>:<Password>@cluster0.ueqgbuk.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 // Check DB connection
 client.connect(err => {
